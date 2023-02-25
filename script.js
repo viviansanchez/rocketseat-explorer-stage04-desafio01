@@ -20,7 +20,7 @@ alert(`A multiplicação dos dois números é: ${multiply()}`)
 alert(`O resultado da divisão do primeiro número pelo segundo é: ${divide()}`)
 alert(`O resto da divisão do primeiro número pelo segundo é: ${remainder()}`)
 
-if ((firstNumber + secondNumber) % 2 == 0) {
+if (sum() % 2 == 0) {
   alert(`A soma dos números é par: ${sum()}`)
 } else {
   alert(`A soma dos números é ímpar: ${sum()}`)
